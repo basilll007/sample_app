@@ -31,7 +31,7 @@ def send_email(to_email, subject, body):
 
 
 # Load the saved CNN model
-cnn_model = load_model("cnn_model.h5")
+cnn_model = load_model("https://github.com/basilll007/sample_app/blob/main/cnn_model.h5")
 
 # Define the classes
 classes = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"]
